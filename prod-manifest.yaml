@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: prod-stedi-caroline
-          image: gcr.io/cubs-consulting/stedi #this image needs to refer to the NEW artifact registry repositroy
+          image: us-docker.pkg.dev/cit-262-team1-ez/caroline-api/stedi-api:latest #this image needs to refer to the NEW artifact registry repositroy
           env:
             - name: REDIS_PASSWORD
               valueFrom:

@@ -35,7 +35,7 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: caroline-twilio-dev
-                  key: twilio_token
+                  key: twilio-token
           ports:
             - containerPort: 443
           resources:

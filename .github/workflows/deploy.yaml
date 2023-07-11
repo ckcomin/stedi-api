@@ -10,7 +10,7 @@ env:
 
   GKE_CLUSTER: cluster-1    
   GKE_ZONE: us-central1-c   # Add your cluster zone here.
-  DEPLOYMENT_NAME: caroline-api # Add your deployment name here.
+  DEPLOYMENT_NAME: dev-stedi-caroline # Add your deployment name here.
   IMAGE: caroline-api
 
 jobs:
